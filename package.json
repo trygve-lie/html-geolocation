@@ -1,0 +1,42 @@
+{
+  "name": "html-geolocation",
+  "version": "0.0.1",
+  "author": {
+    "name": "Trygve Lie",
+    "email": "post@trygve-lie.com"
+  },
+  "description": "Wrapper for the standard HTML geolocation API - has extended features such as accuracy bounds calculation and init coordinates for immediate access",
+  "main": "./lib/geolocation.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trygve-lie/html-geolocation.git"
+  },
+  "keywords": [
+    "html",
+    "html5",
+    "geolocation",
+    "geo",
+    "location"
+  ],
+  "scripts": {
+    "pretest": "eslint ./lib/*.js ./test/*.js",
+    "test": "tap --cov test/*.js"
+  },
+  "contributors": [
+    {
+      "name": "Trygve Lie",
+      "email": "post@trygve-lie.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/trygve-lie/html-geolocation/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter3": "1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "2.5.3",
+    "tap": "5.7.0"
+  }
+}
