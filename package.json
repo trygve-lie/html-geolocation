@@ -33,10 +33,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "eventemitter3": "1.2.0"
+    "eventemitter3": "3.1.0"
   },
   "devDependencies": {
-    "eslint": "2.5.3",
-    "tap": "5.7.0"
+    "eslint": "5.6.1",
+    "tap": "12.0.1"
   }
 }
